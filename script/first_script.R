@@ -1,7 +1,8 @@
 #My first github synched script
 #Always pull first
 #Notes to self: stage, commit, push, change. 
-#restore the version of the packages used to develop this project:
+#renv::init at the start of package, renv::snapshot when major update
+#restore the version of the packages used to develop this project :
 library(renv)
 renv::restore()
 #project libraries
