@@ -1,3 +1,5 @@
 #My first github synched script
 #My libraries:
-library(tidyverse)
+library(renv)
+#restore the version of the packages used to develop this project:
+renv::restore()
